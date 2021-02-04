@@ -1,0 +1,23 @@
+{
+	"config": {
+		"imports": {
+			"shared-packages-react": {
+				"react": "16.8.6",
+				"react-dom": "16.8.6"
+			},
+			"": {
+				"shared-packages-react": "^1.0.0"
+			}
+		}
+	},
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+			"js-extender": true,
+			"web-context": "/react-application-two",
+			"localization": "features/localization/Language",
+			"configuration": "features/configuration.json"
+		}
+	},
+	"dump-report": true
+}
